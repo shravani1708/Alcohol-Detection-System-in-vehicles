@@ -14,4 +14,37 @@ The alcohol detection system using NodeMCU, Blynk app, breadboard, ESP8266 NodeM
 6.	Integration with IoT Ecosystem: Integrate the alcohol detection system with other IoT devices or platforms to enhance its functionality. For example, connect the system to smart home automation systems, health monitoring systems, or cloud platforms to enable seamless integration and data sharing across various applications.
 These novel features can enhance the capabilities of the alcohol detection system, providing more accurate measurements, personalized settings, intelligent analysis, and seamless integration with other IoT devices and platforms.
 
+# Components Required:
+1. bread board
+2. esp8266 NodeMCU
+3. buzzer
+4. 180-ohm resistor
+5. relay module
+6. I2C Module
+7. Motor
+8. MQ3 sensor
+9. 9V battery
+10.16X2LCD display soldered with I2C module
+11.Jumper wires
+12.Led
+
+# Circuit Setup:
+1. Connect the MQ-3 sensor to NodeMCU by using the following
+configurations.<br/>
+Connections:
+NodeMCU      MQ3<br/>
+VIN          GND<br/>
+VCC          GND<br/>
+A0            A0<br/>
+3. Connect the buzzer to NodeMCU. Use a 180-ohm resistor in series to limit
+the current flowing through the buzzer. One pin to GND and other to D4
+of NodeMCU
+4. Connect a LED to NodeMCU. One pin to GND and other to D5 of
+NodeMCU.
+5. Connect the relay module to NodeMCU, ensuring proper connections to
+control the motor. Motor is connected to D3 of NodeMCU using the relay
+module
+
+
+
 
