@@ -1,10 +1,10 @@
 # Alcohol-Detection-System-in-vehicles
 
-Introduction:
+# Introduction:
 Nowadays drinking alcohol and driving are the most common threats to their lives and the lives of others. We can’t stop people from drinking alcohol but we can avoid such accidents by checking the person drinking and we can also keep such small devices in the vehicle to make sure there is no drink and drive. Today we are creating a simple Alcohol detector. We can use it in various application fields. So this is a small demonstration of a simple Alcohol detector using NodeMCU and MQ3 sensor. Many advanced alcohol sensors are available in the market for a reasonable price, but we are here to make this project using some basic components like NodeMCU, LED, Buzzer and MQ3 alcohol sensors. This is a very simple project and you can just follow the instructions given below for this project.
 The equipment we use today to make alcohol detectors are NodeMCU, LEDs, Buzzer, and MQ3 alcohol sensors. There are many MQ-X sensors available in the market for different uses, but we are going to use MQ-3 sensor. Here as it is the best to detect alcohol. However, most MQ sensors work the same. They all contain a heating element that heats a layer of conductive material we constantly measure this resistance. Its resistance changes when the odor from smoking or alcohol comes into contact with the MQ-3 sensor activating the buzzer and giving us proper output for our detection.
 
-Novelty:
+# Novelty:
 The alcohol detection system using NodeMCU, Blynk app, breadboard, ESP8266 NodeMCU, buzzer, 180 ohm resistor, relay module, motor, and MQ-3 sensor can incorporate the following novel features:
 1.	Real-time Data Visualization: Implement a feature in the Blynk app to display real-time alcohol concentration readings from the MQ-3 sensor on a graph or gauge. This provides users with instant visual feedback and allows them to monitor alcohol levels continuously.
 2.	Customizable Thresholds and Alerts: Enable users to set their own alcohol concentration thresholds through the Blynk app. When the detected alcohol concentration exceeds the user-defined limit, the system triggers the buzzer and activates the relay module to control external devices or send notifications via the app.
