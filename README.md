@@ -32,10 +32,12 @@ These novel features can enhance the capabilities of the alcohol detection syste
 1. Connect the MQ-3 sensor to NodeMCU by using the following
 configurations.<br/>
 Connections:<br/>
-NodeMCU______MQ3<br/>
-VIN__________GND<br/>
-VCC__________GND<br/>
-A0___________A0<br/>
+<pre>
+NodeMCU      MQ3<br/>
+VIN          GND<br/>
+VCC          GND<br/>
+A0           A0<br/>
+</pre>
 3. Connect the buzzer to NodeMCU. Use a 180-ohm resistor in series to limit
 the current flowing through the buzzer. One pin to GND and other to D4
 of NodeMCU
