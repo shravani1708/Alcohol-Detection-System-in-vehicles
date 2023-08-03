@@ -31,7 +31,7 @@ These novel features can enhance the capabilities of the alcohol detection syste
 # Circuit Setup:
 1. Connect the MQ-3 sensor to NodeMCU by using the following
 configurations.<br/>
-Connections:
+Connections:<br/>
 NodeMCU      MQ3<br/>
 VIN          GND<br/>
 VCC          GND<br/>
